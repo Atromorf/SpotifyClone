@@ -1,0 +1,99 @@
+{
+    "data":[
+        {
+            "name":"Alone",
+            "album":"Marsh",
+            "cover":"https://i.pinimg.com/736x/cb/f7/f6/cbf7f6a4bd3e24b6e248cba5ed3821bd.jpg",
+            "artist":{
+                "name":"Marshmello",
+                "nickname":"Marshmello",
+                "nationality":"American"
+            },
+            "duration":{
+                "start":0,
+                "end":333
+            },
+            "url":"https://localhost:3001/music/track-1.mp3"
+        },
+        {
+            "_id":2,
+            "name":"A Sky full of Stars",
+            "album":"Ghost Stories",
+            "cover":"https://i.scdn.co/image/ab67616d0000b273f864bcdcc245f06831d17ae0",
+            "artist":{
+                "name":"Coldplay",
+                "nickname":"Coldplay",
+                "nationality":"British"
+            },
+            "duration":{
+                "start":0,
+                "end":333
+            },
+            "url":"https://localhost:3001/music/track-2.mp3"
+        },
+        {
+            "_id":3,
+            "name":"Sunshine",
+            "album":"Ghost Stories",
+            "cover":"https://images.genius.com/99fcd7274868ed0f42f917e73c7d8e5a.750x750x1.jpg",
+            "artist":{
+                "name":"One Republic",
+                "nickname":"One Republic",
+                "nationality":"British"
+            },
+            "duration":{
+                "start":0,
+                "end":333
+            },
+            "url":"https://localhost:3001/music/track-2.mp3"
+        },
+        {
+            "_id":4,
+            "name":"Down With The Sickness",
+            "album":"Ghost Stories",
+            "cover":"https://m.media-amazon.com/images/I/81gcQXWNsYL._UF894,1000_QL80_.jpg",
+            "artist":{
+                "name":"Disturbed",
+                "nickname":"Disturbed",
+                "nationality":"British"
+            },
+            "duration":{
+                "start":0,
+                "end":333
+            },
+            "url":"https://localhost:3001/music/track-2.mp3"
+        },
+        {
+            "_id":5,
+            "name":"Forget about me",
+            "album":"Ghost Stories",
+            "cover":"https://upload.wikimedia.org/wikipedia/en/4/47/Escape_The_Fate_Cover.jpg",
+            "artist":{
+                "name":"Escape the Fate",
+                "nickname":"Escape the Fate",
+                "nationality":"British"
+            },
+            "duration":{
+                "start":0,
+                "end":333
+            },
+            "url":"https://localhost:3001/music/track-2.mp3"
+        },
+        {
+            "_id":6,
+            "name":"Bad Company",
+            "album":"Ghost Stories",
+            "cover":"https://cuarteldelmetal.com/wp-content/uploads/2023/05/Portada-de-Five-Finger-Death-Punch-%E2%80%93-War-Is-the-Answer-2009.jpg",
+            "artist":{
+                "name":"Five Finger Death Punch",
+                "nickname":"Five Finger Death Punch",
+                "nationality":"British"
+            },
+            "duration":{
+                "start":0,
+                "end":333
+            },
+            "url":"https://localhost:3001/music/track-2.mp3"
+        }
+    ]
+}

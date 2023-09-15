@@ -1,0 +1,136 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+.login-container {
+    /*background-color: #635a5a; Color de fondo negro */
+    background-image: url('../../../../../assets/images/musica.jpg')!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-auth-page {
+    background-color: rgba(253, 253, 253, 0.1); /* Color de fondo del contenido */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Reduce el ancho del contenedor */
+    padding: 60px;
+    text-align: center;
+}
+
+/* Estilos del formulario */
+h3 {
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-shadow: 0.1em 0.1em #fffdfd;
+}
+
+/* Centrar los botones */
+.login-social-zone {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem; /* Espacio reducido entre botones */
+}
+
+/* ... Resto de los estilos se mantienen igual ... */
+
+
+.login-auth-page .social-btn {
+    border: 0;
+    padding: .5rem 2rem;
+    width: 100%;
+    font-size: var(--font-size-2);
+    border-radius: var(--border-radius-2);
+    box-shadow: var(--shadow-1);
+    border: solid 1px var(--color-4);
+    background-color: var(--color-4);
+    font-weight: 600;
+}
+
+.login-auth-page .login-social-zone .social-btn.btn-fb {
+    background-color: #3A61B3;
+    color: var(--color-5);
+}
+
+.login-auth-page .login-social-zone .social-btn.btn-apple {
+    background-color: #1a1a1a;
+    color: var(--color-4);
+}
+
+.login-auth-page .separator {
+    width: 100%;
+    margin: 2rem 0;
+    border-bottom: solid 1px var(--color-2);
+    opacity: .2;
+}
+
+.login-auth-page .login-auth-form {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.login-auth-page .login-auth-form .form-group {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    color: #050505;
+    text-shadow: 0.1em 0.1em #fffdfd;
+}
+
+.login-auth-page .login-auth-form .form-group input {
+    border: solid 1px #000000;
+    border-radius: var(--border-radius-1);
+    height: 50px;
+    padding: 0 1rem;
+    font-size: var(--font-size-2);
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #5d5d5e;
+}
+
+.login-auth-page .login-auth-form label {
+    padding-bottom: .35rem;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0;
+}
+
+.login-auth-page .login-auth-form .form-steps {
+    padding: .5rem 0;
+}
+
+.login-auth-page .login-auth-form .form-steps .link {
+    color: var(--color-5);
+    font-size: 85%;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.login-auth-page .login-auth-form .form-steps .link:hover {
+    color: var(--color-1);
+}
+
+.login-auth-page .login-auth-form .form-action .login {
+    color: var(--color-5);
+    margin: 1rem 0;
+    background-color: var(--color-1);
+}
+
+input.ng-invalid.ng-touched {
+    border: solid 5px red !important
+}
+
+input.ng-valid.ng-touched {
+    border: solid 5px green !important
+}

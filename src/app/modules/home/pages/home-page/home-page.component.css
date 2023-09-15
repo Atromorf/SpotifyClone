@@ -1,0 +1,20 @@
+.home-wrapper {
+    margin: 0 0 0 17.5rem;
+    background-image: url('../../../../../assets/images/FondoM3.gif'); /* Ruta del GIF */
+    min-height: 100vh;
+    background-size: 100% 100%; /* Ajusta el tamaño del fondo al contenedor */
+    background-repeat: no-repeat; /* Evita la repetición del fondo */
+    animation: moverFondo 10s linear infinite; /* Agrega una animación para mover el fondo */
+    background-attachment: fixed; /* Evita que el fondo se mueva al hacer scroll */
+    image-resolution: 500dpi; /* Resolución de la imagen */
+}
+
+@keyframes moverFondo {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
